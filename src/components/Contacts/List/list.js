@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 function ContactList({ contacts }) {
 	const [filterText, setFilterText] = useState("");

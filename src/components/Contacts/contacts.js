@@ -1,6 +1,6 @@
-import { useState } from "react";
-import List from "./List";
-import Form from "./Form";
+import React, { useState } from "react";
+import List from "./List/list";
+import Form from "./Form/form";
 import "./styles.css";
 
 function Contacts() {
